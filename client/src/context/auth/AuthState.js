@@ -3,6 +3,7 @@ import axios from 'axios';
 
 import authContext from './authContext';
 import authReducer from './authReducer';
+import setAuthToken from '../../utils/setAuthToken';
 import {
   REGISTER_SUCCESS,
   REGISTER_FAIL,
@@ -27,7 +28,9 @@ const AuthState = (props) => {
 
   //Load User
   const loadUser = async () => {
-    // @todo - Load token into global headers
+    if (localStorage.token) {
+      setAuthToken(localStorage.token);
+    }
     try {
       const res = await axios.get('/api/auth');
       dispatch({
@@ -54,6 +57,7 @@ const AuthState = (props) => {
         type: REGISTER_SUCCESS,
         payload: res.data,
       });
+      loadUser();
     } catch (err) {
       dispatch({
         type: REGISTER_FAIL,
