@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://tory:tory123@cluster0-71i4j.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "N=6JHVu6RKtD=*r4Db8fmFd$t$6VaY^9Nt$@J=x@Yu=jDyLZ7KsQpwQy^vHbU6jKtwX!u-B384SD@*Edyy%w6e@-@WrJ7zR@TcFAESA@tYErqzvAegbet%re=PhAJff$NBWReZ7FkzARMSeVN44BpBz=CkY!CAyvsb?+wv$=PfEXMCanuW*WayPZhE@SQptmU&RMqvqTX^b8-=p&Jr&_@BzqaMA-DkFTaJA=weVu+wjqNHhdJB%EE*4zE8Yucduk"
+}
