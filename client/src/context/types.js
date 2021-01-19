@@ -8,8 +8,10 @@ export const FILTER_CONTACT = 'FILTER_CONTACT';
 export const CLEAR_CONTACTS = 'CLEAR_CONTACTS';
 export const CONTACT_ERROR = 'CONTACT_ERROR';
 export const CLEAR_FILTER = 'CLEAR_FILTER';
+//Alerts
 export const SET_ALERT = 'SET_ALERT';
 export const REMOVE_ALERT = 'REMOVE_ALERT';
+// User login register
 export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
 export const REGISTER_FAIL = 'REGISTER_FAIL';
 export const USER_LOADED = 'USER_LOADED';
